@@ -70,14 +70,6 @@ Each cell is well commented to explain the code functionality.
 
 ## Project Structure
 
-/
-├── sentiment_analysis_bilstm.ipynb # Main Jupyter notebook with full code and explanation
-├── data/ # Folder containing datasets (if included)
-├── embeddings/ # Folder containing pre-trained embeddings (e.g., GloVe vectors)
-├── models/ # (Optional) Saved model files or checkpoints
-├── requirements.txt # Python dependencies needed to run the code
-└── README.md # Project documentation (this file)
-
 - The notebook contains all the code from data preprocessing to model evaluation.
 - Data and embeddings folders may be optionally included or downloaded dynamically.
 - `requirements.txt` ensures reproducible environment setup.
